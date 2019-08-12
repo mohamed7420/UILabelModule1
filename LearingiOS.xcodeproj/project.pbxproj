@@ -54,14 +54,38 @@
 		BA81C939230206CE00C75CCA /* LearingiOS */ = {
 			isa = PBXGroup;
 			children = (
-				BA81C93A230206CE00C75CCA /* AppDelegate.swift */,
-				BA81C93C230206CE00C75CCA /* ViewController.swift */,
-				BA81C93E230206CE00C75CCA /* Main.storyboard */,
-				BA81C941230206CF00C75CCA /* Assets.xcassets */,
+				BA81C94E2302075B00C75CCA /* Model */,
+				BA81C94D2302075300C75CCA /* Controller */,
+				BA81C94C2302074100C75CCA /* View */,
 				BA81C943230206CF00C75CCA /* LaunchScreen.storyboard */,
 				BA81C946230206CF00C75CCA /* Info.plist */,
 			);
 			path = LearingiOS;
+			sourceTree = "<group>";
+		};
+		BA81C94C2302074100C75CCA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA81C941230206CF00C75CCA /* Assets.xcassets */,
+				BA81C93E230206CE00C75CCA /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA81C94D2302075300C75CCA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA81C93C230206CE00C75CCA /* ViewController.swift */,
+				BA81C93A230206CE00C75CCA /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BA81C94E2302075B00C75CCA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
